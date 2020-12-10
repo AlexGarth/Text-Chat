@@ -1,0 +1,19 @@
+{
+  "name": "chat-app",
+  "version": "0.0.0",
+  "description": "A Chat App in NodeJS using SocketIO",
+  "main": "server/server.js",
+  "repository": "https://github.com/AlexGarth/ChatApp.com",
+  "author": "Alexander McDonald <alexgarth05@gmail.com>",
+  "license": "CC-BY-SA",
+  "engines": {
+    "node": "15.3.0"
+  },
+  "private": true,
+  "scripts": {
+    "start": "node server/server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
